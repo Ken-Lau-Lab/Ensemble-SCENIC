@@ -14,6 +14,7 @@ See also the associated publication in Nature Protocols: https://doi.org/10.1038
 The environment of SCENIC Protocol can be installed through the included scenic_protocol.yml with the following command:
 ```console
 conda env create -f scenic_protocol.yml
+conda activate scenic_protocol
 python -m ipykernel install --user --name=scenic_protocol
 ```
 
